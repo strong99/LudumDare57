@@ -1,0 +1,43 @@
+.credits {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 30em 1fr;
+    place-content: center;
+    place-items: center;
+    gap: 0.5em;
+}
+
+.credits article {
+    max-width: 30em;
+}
+
+.credits a {
+    color: white;
+}
+
+.credits a:hover {
+    font-weight: bolder;
+}
+
+.focus {
+    font-weight: bolder;
+}
+
+.credits:before {
+    content: '';
+    display: block;
+    width: 12em;
+    height: 9em;
+    background: url(../../public/submarine.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.credits:after {
+    content: '';
+    display: block;
+    width: 9em;
+    height: 9em;
+    background: url(../../public/captainIcon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

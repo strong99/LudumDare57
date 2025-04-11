@@ -1,0 +1,102 @@
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: #2c2c2c;
+    width: 1280px;
+    height: 720px;
+}
+
+.title {
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Baskerville Old Face';
+    padding: 40px 0;
+    margin: 0;
+}
+
+.tableArea {
+    background: url("../../public/Table.png"); /* #9b6829; */
+    width: 1280px;
+    height: 620px;
+    box-shadow: 0px -10px 5px #a78963;
+}
+
+.newspaper {
+    height: 548px;
+    width: 900px;
+    background: url("../../public/newspaper-900.png");
+    margin: auto;
+}
+
+.newspaper h1 {
+    font-size: 40px;
+    font-variant-caps: small-caps;
+    padding-top: 100px;
+    padding-left: 150px;
+    margin: 0;
+ 
+}
+
+.articles {
+    height: 300px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 400px 100px;
+    grid-gap: 5px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+    .articles h2 {
+        font-size: 20px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+
+    .articles p {
+        font-size: 15px;
+        margin: 0;
+        
+        padding-bottom: 20px;
+    }
+
+.leftSide {
+    width: 380px;
+    transform: skew(8deg, 1deg);
+    left: -5em;
+}
+
+.rightSide {
+    width: 200px;
+}
+
+.captainsLetter {
+    width: 200px;
+    transform: skew(8deg, 1deg);
+}
+
+.buttonsStyle {
+    padding-left: 30px;
+}
+
+.buttonsStyle button {
+    height: 30px;
+    width: 150px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+    background-color: #a5a564;
+    color: white;
+    cursor: pointer;
+    border-color: #63631e;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+    .buttonsStyle button:hover {
+        background-color: #c2c27c;
+        border-color: #b1b179;
+    }

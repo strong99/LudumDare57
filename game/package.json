@@ -1,0 +1,35 @@
+{
+  "name": "ld57-game",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@local/solid-pixi": "^1.0.1",
+    "pixi.js": "^8.9.1",
+    "solid-js": "^1.9.5",
+    "globals": "^16.0.0"
+  },
+  "devDependencies": {
+    "globals": "^15.15.0",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.8.2",
+    "unplugin-yaml": "^2.1.0",
+    "vite": "^6.2.0",
+    "vite-plugin-solid": "^2.11.6",
+    "vitest": "^2.1.2"
+  },
+  "include": [
+    "src",
+    "tests"
+  ]
+}
