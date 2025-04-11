@@ -1,4 +1,4 @@
-import { createSignal, For, onCleanup } from "solid-js";
+import { createSignal, For } from "solid-js";
 import Level from "../../data/Level";
 import { DefaultChannel } from "../../models/GlobalEventChannel";
 import { P } from "@rex/solid-pixi";

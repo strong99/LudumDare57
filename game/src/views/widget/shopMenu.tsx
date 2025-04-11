@@ -1,7 +1,7 @@
 import { createEffect, createSignal, For, onCleanup, Show } from "solid-js";
 import { GameController } from "../../controllers/GameController";
-import { GameModel, PlayerModel, UpgradesModel } from "../../models/GameModel";
-import { EventArgs, PropertyChangedArgs } from "../../utils/PropertyChangedArgs";
+import { GameModel } from "../../models/GameModel";
+import { PropertyChangedArgs } from "../../utils/PropertyChangedArgs";
 import styles from "./shopMenu.module.css";
 
 import Items from "../../data/Items.ts";
@@ -164,7 +164,7 @@ function ItemCard(props: {
                 </div>
                 <p class={styles.productText}> {props.item.description} </p>
                 <div> <button class={styles.productButton} type="button" disabled={amount() === 0} onclick={() => props.game.sell(props.item.id)
-                }> Sell for E {props.item.cost} </button> of {amount()}</div>
+                }> Sell for &euro; {props.item.cost} </button> of {amount()}</div>
             </div>
         </div>
     );

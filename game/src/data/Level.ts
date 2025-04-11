@@ -500,6 +500,138 @@ const Level: {
                 "y": 7713.368270074883
             },
             "respawnInterval": 0
+        },
+        {
+            "id": "1744305389073",
+            "creatureId": "crate",
+            "maxAmount": 0,
+            "startAmount": 1,
+            "position": {
+                "x": 1453.5374711936518,
+                "y": 1434.3571189512268
+            },
+            "respawnInterval": 0
+        },
+        {
+            "id": "1744305440584",
+            "creatureId": "crate",
+            "maxAmount": 0,
+            "startAmount": 1,
+            "position": {
+                "x": 7974.4404572514495,
+                "y": 3468.0395175649687
+            },
+            "respawnInterval": 0
+        },
+        {
+            "id": "spawner:1744396011987",
+            "creatureId": "paarse-vis",
+            "maxAmount": 4,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 7721.110910646256,
+                "y": 1364.5634295448956
+            },
+            "startAmount": 2
+        },
+        {
+            "id": "spawner:1744396207272",
+            "creatureId": "paarse-vis",
+            "maxAmount": 4,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 15214.212181953768,
+                "y": 1555.2887543004038
+            },
+            "startAmount": 2
+        },
+        {
+            "id": "spawner:1744396218784",
+            "creatureId": "clownfish",
+            "maxAmount": 8,
+            "respawnInterval": 500,
+            "position": {
+                "x": 19024.920476292107,
+                "y": 2086.9578538878113
+            },
+            "startAmount": 4
+        },
+        {
+            "id": "spawner:1744396403271",
+            "creatureId": "paarse-vis",
+            "maxAmount": 4,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 20939.89029113216,
+                "y": 4033.92846767078
+            },
+            "startAmount": 2
+        },
+        {
+            "id": "spawner:1744396408501",
+            "creatureId": "kwal-groen",
+            "maxAmount": 5,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 19824.49458903163,
+                "y": 3876.0395676877943
+            },
+            "startAmount": 2
+        },
+        {
+            "id": "spawner:1744396419015",
+            "creatureId": "kwal-groen",
+            "maxAmount": 5,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 18620.155783552385,
+                "y": 5825.683806899921
+            },
+            "startAmount": 2
+        },
+        {
+            "id": "spawner:1744396446273",
+            "creatureId": "paarse-vis",
+            "maxAmount": 4,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 20736.676720533953,
+                "y": 6835.715036504335
+            },
+            "startAmount": 2
+        },
+        {
+            "id": "spawner:1744396639462",
+            "creatureId": "paarse-vis",
+            "maxAmount": 4,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 16847.046862898012,
+                "y": 5662.670416009936
+            },
+            "startAmount": 2
+        },
+        {
+            "id": "spawner:1744396710833",
+            "creatureId": "kwal-paars",
+            "maxAmount": 5,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 15567.561780218904,
+                "y": 5416.372414073403
+            },
+            "startAmount": 2
+        },
+        {
+            "id": "spawner:1744396769355",
+            "creatureId": "kwal-paars",
+            "maxAmount": 5,
+            "respawnInterval": 1000,
+            "position": {
+                "x": 13248.820289468747,
+                "y": 4901.123470016424
+            },
+            "startAmount": 2
         }
     ],
     "objects": [
@@ -3835,21 +3967,579 @@ const Level: {
             }
         },
         {
-            "id": "1744305389073",
+            "id": "1744395892682",
             "image": "crate.png",
-            "layer": "middle",
+            "layer": "back",
             "position": {
-                "x": 1366.0374711936518,
-                "y": 1368.3571189512268
+                "x": 2455.287552268461,
+                "y": 1503.6987646483276
             }
         },
         {
-            "id": "1744305440584",
+            "id": "1744396065429",
             "image": "crate.png",
             "layer": "middle",
             "position": {
-                "x": 7886.9404572514495,
-                "y": 3402.0395175649687
+                "x": 12847.546417875814,
+                "y": 2263.1999855041486
+            }
+        },
+        {
+            "id": "1744396072726",
+            "image": "crate.png",
+            "layer": "middle",
+            "position": {
+                "x": 13442.257948270246,
+                "y": 2005.431168978843
+            }
+        },
+        {
+            "id": "1744396227527",
+            "image": "crate.png",
+            "layer": "middle",
+            "position": {
+                "x": 19937.524000642086,
+                "y": 1206.6111910968089
+            }
+        },
+        {
+            "id": "1744396236966",
+            "image": "crate.png",
+            "layer": "middle",
+            "position": {
+                "x": 21114.123057502675,
+                "y": 985.9641981212942
+            }
+        },
+        {
+            "id": "1744396246966",
+            "image": "crate.png",
+            "layer": "middle",
+            "position": {
+                "x": 22638.25435297073,
+                "y": 592.8795089524051
+            }
+        },
+        {
+            "id": "1744396256970",
+            "image": "plant-lang-2.png",
+            "layer": "middle",
+            "position": {
+                "x": 23418.802770345806,
+                "y": 513.651343824589
+            }
+        },
+        {
+            "id": "1744396257999",
+            "image": "plant-lang-2.png",
+            "layer": "middle",
+            "position": {
+                "x": 23193.316806162864,
+                "y": 313.74383250459914
+            }
+        },
+        {
+            "id": "1744396263412",
+            "image": "plant-lange-slierten.png",
+            "layer": "middle",
+            "position": {
+                "x": 23323.842726200564,
+                "y": 315.02756253428424
+            }
+        },
+        {
+            "id": "1744396267060",
+            "image": "plant-lange-slierten.png",
+            "layer": "middle",
+            "position": {
+                "x": 23543.042677277666,
+                "y": 296.6114105594472
+            }
+        },
+        {
+            "id": "1744396346857",
+            "image": "crate.png",
+            "layer": "middle",
+            "position": {
+                "x": 18890.194786788226,
+                "y": 2318.524626462173
+            }
+        },
+        {
+            "id": "1744396353434",
+            "image": "plant-lang-2.png",
+            "layer": "front",
+            "position": {
+                "x": 18942.07197215196,
+                "y": 2181.9553486126233
+            }
+        },
+        {
+            "id": "1744396369931",
+            "image": "crate.png",
+            "layer": "front",
+            "position": {
+                "x": 19605.96419443342,
+                "y": 4159.998561265893
+            }
+        },
+        {
+            "id": "1744396384716",
+            "image": "crate.png",
+            "layer": "middle",
+            "position": {
+                "x": 21180.92815419662,
+                "y": 4240.6117905772735
+            }
+        },
+        {
+            "id": "1744396396975",
+            "image": "plant-bol-1.png",
+            "layer": "front",
+            "position": {
+                "x": 21240.928471270687,
+                "y": 4286.728455463748
+            }
+        },
+        {
+            "id": "1744396426243",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 19422.268533587627,
+                "y": 6061.441060899552
+            }
+        },
+        {
+            "id": "1744396438009",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 19653.485893871264,
+                "y": 6872.1491841623565
+            }
+        },
+        {
+            "id": "1744396463270",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 21626.934843805415,
+                "y": 6939.719617948235
+            }
+        },
+        {
+            "id": "1744396474577",
+            "image": "plant-bol-1.png",
+            "layer": "middle",
+            "position": {
+                "x": 21584.53488042651,
+                "y": 7015.719617948235
+            }
+        },
+        {
+            "id": "1744396480357",
+            "image": "plant-lange-slierten.png",
+            "layer": "front",
+            "position": {
+                "x": 21658.134917047602,
+                "y": 6950.9196301552665
+            }
+        },
+        {
+            "id": "1744396525892",
+            "image": "plant-lange-slierten.png",
+            "layer": "back",
+            "position": {
+                "x": 18419.694790066773,
+                "y": 6376.36530934189
+            }
+        },
+        {
+            "id": "1744396530304",
+            "image": "plant-lang-2.png",
+            "layer": "back",
+            "position": {
+                "x": 18524.49480837732,
+                "y": 6469.16526661728
+            }
+        },
+        {
+            "id": "1744396538952",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18346.894771756226,
+                "y": 6317.1652818760695
+            }
+        },
+        {
+            "id": "1744396541727",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18705.294857205445,
+                "y": 6085.165304764253
+            }
+        },
+        {
+            "id": "1744396544354",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18734.0947229281,
+                "y": 6137.1652818760695
+            }
+        },
+        {
+            "id": "1744396546903",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18320.49480837732,
+                "y": 6267.565275772554
+            }
+        },
+        {
+            "id": "1744396554330",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18305.294735135132,
+                "y": 6165.531962021333
+            }
+        },
+        {
+            "id": "1744396605605",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18208.762502577418,
+                "y": 5361.5442791304695
+            }
+        },
+        {
+            "id": "1744396610146",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18191.962575819605,
+                "y": 5444.192361402334
+            }
+        },
+        {
+            "id": "1744396612977",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18705.562490370387,
+                "y": 5247.392357130297
+            }
+        },
+        {
+            "id": "1744396616146",
+            "image": "plant-bol-1.png",
+            "layer": "back",
+            "position": {
+                "x": 18734.36253919851,
+                "y": 5292.992347974832
+            }
+        },
+        {
+            "id": "1744396630941",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 16478.49036954112,
+                "y": 5883.791729052751
+            }
+        },
+        {
+            "id": "1744396651272",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 16443.31454355569,
+                "y": 7015.635462025754
+            }
+        },
+        {
+            "id": "1744396664303",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 17382.43891187688,
+                "y": 4147.181794952042
+            }
+        },
+        {
+            "id": "1744396669480",
+            "image": "koraal1.png",
+            "layer": "middle",
+            "position": {
+                "x": 17479.667762919817,
+                "y": 4183.50765263934
+            }
+        },
+        {
+            "id": "1744396674137",
+            "image": "plant-bol-1.png",
+            "layer": "front",
+            "position": {
+                "x": 17394.867714246895,
+                "y": 4209.107674040537
+            }
+        },
+        {
+            "id": "1744396696406",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 16542.911818132394,
+                "y": 3490.1218475555725
+            }
+        },
+        {
+            "id": "1744396794196",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 11889.49837401516,
+                "y": 3671.8451104586834
+            }
+        },
+        {
+            "id": "1744396812350",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 11842.267023429089,
+                "y": 5715.639642558359
+            }
+        },
+        {
+            "id": "1744396877387",
+            "image": "plant-lang-2.png",
+            "layer": "back",
+            "position": {
+                "x": 11892.344280075251,
+                "y": 4006.333084313298
+            }
+        },
+        {
+            "id": "1744396883417",
+            "image": "plant-klein.png",
+            "layer": "back",
+            "position": {
+                "x": 11921.149359341443,
+                "y": 4210.294748340765
+            }
+        },
+        {
+            "id": "1744396888010",
+            "image": "plant-klein.png",
+            "layer": "back",
+            "position": {
+                "x": 12453.949347134432,
+                "y": 3967.0947208897815
+            }
+        },
+        {
+            "id": "1744396914785",
+            "image": "plant-klein.png",
+            "layer": "back",
+            "position": {
+                "x": 12488.349371548495,
+                "y": 3907.8947239415393
+            }
+        },
+        {
+            "id": "1744396938421",
+            "image": "plant-lange-slierten.png",
+            "layer": "back",
+            "position": {
+                "x": 11948.317958770062,
+                "y": 2852.6044759537294
+            }
+        },
+        {
+            "id": "1744396942080",
+            "image": "plant-lange-slierten.png",
+            "layer": "back",
+            "position": {
+                "x": 11874.702954581251,
+                "y": 2779.7916435462853
+            }
+        },
+        {
+            "id": "1744396951427",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 11378.378654195822,
+                "y": 2775.1314366409206
+            }
+        },
+        {
+            "id": "1744396970071",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 10061.699133201364,
+                "y": 3875.241078037343
+            }
+        },
+        {
+            "id": "1744396987623",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 10844.872505575944,
+                "y": 4183.583565938078
+            }
+        },
+        {
+            "id": "1744397016116",
+            "image": "crate.png",
+            "layer": "back",
+            "position": {
+                "x": 4718.372225763912,
+                "y": 2002.6242285120338
+            }
+        },
+        {
+            "id": "1744397020433",
+            "image": "plant-lang-2.png",
+            "layer": "middle",
+            "position": {
+                "x": 4812.445077532513,
+                "y": 1881.3630811390592
+            }
+        },
+        {
+            "id": "1744397024103",
+            "image": "plant-lang-2.png",
+            "layer": "middle",
+            "position": {
+                "x": 4912.441802363788,
+                "y": 1997.1604754749253
+            }
+        },
+        {
+            "id": "1744397026755",
+            "image": "plant-lang-2.png",
+            "layer": "middle",
+            "position": {
+                "x": 5082.139456396424,
+                "y": 1901.6733260298545
+            }
+        },
+        {
+            "id": "1744397033438",
+            "image": "plant-klein.png",
+            "layer": "middle",
+            "position": {
+                "x": 5205.355417927468,
+                "y": 1969.6646776425227
+            }
+        },
+        {
+            "id": "1744397035553",
+            "image": "plant-klein.png",
+            "layer": "middle",
+            "position": {
+                "x": 5013.035439197073,
+                "y": 1972.0647020565789
+            }
+        },
+        {
+            "id": "1744397048453",
+            "image": "plant-lange-slierten.png",
+            "layer": "middle",
+            "position": {
+                "x": 3618.5446779140157,
+                "y": 1694.9767067373298
+            }
+        },
+        {
+            "id": "1744397049533",
+            "image": "plant-lange-slierten.png",
+            "layer": "middle",
+            "position": {
+                "x": 3978.963554437994,
+                "y": 1857.354356697565
+            }
+        },
+        {
+            "id": "1744397050487",
+            "image": "plant-lange-slierten.png",
+            "layer": "middle",
+            "position": {
+                "x": 3878.994552407791,
+                "y": 1995.7535423187176
+            }
+        },
+        {
+            "id": "1744397051918",
+            "image": "plant-lange-slierten.png",
+            "layer": "middle",
+            "position": {
+                "x": 3860.5963970164657,
+                "y": 1878.9535085724572
+            }
+        },
+        {
+            "id": "1744397054762",
+            "image": "plant-lange-slierten.png",
+            "layer": "middle",
+            "position": {
+                "x": 3750.196394835088,
+                "y": 1759.7534958083047
+            }
+        },
+        {
+            "id": "1744397067272",
+            "image": "plant-bol-1.png",
+            "layer": "front",
+            "position": {
+                "x": 1884.8340909016715,
+                "y": 1499.8302961246661
+            }
+        },
+        {
+            "id": "1744397069058",
+            "image": "plant-bol-1.png",
+            "layer": "front",
+            "position": {
+                "x": 1950.4154846707022,
+                "y": 1523.0303190603554
+            }
+        },
+        {
+            "id": "1744397076038",
+            "image": "plant-lang-2.png",
+            "layer": "back",
+            "position": {
+                "x": 2039.2153219596748,
+                "y": 1479.0302885216577
+            }
+        },
+        {
+            "id": "1744397085840",
+            "image": "plant-klein.png",
+            "layer": "back",
+            "position": {
+                "x": 286.77868024543324,
+                "y": 715.2966836453421
+            }
+        },
+        {
+            "id": "1744397088030",
+            "image": "plant-klein.png",
+            "layer": "back",
+            "position": {
+                "x": 240.3786736061383,
+                "y": 648.8924823086908
             }
         }
     ],
@@ -11275,6 +11965,6 @@ const Level: {
             }
         }
     ]
-};
+}
 
 export default Level;

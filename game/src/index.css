@@ -10,3 +10,8 @@ body {
     min-height: 100dvh;
     min-width: 100dvw;
 }
+
+#html-root {
+    width: 100dvw;
+    height: 100dvh;
+}

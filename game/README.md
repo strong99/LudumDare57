@@ -1,4 +1,4 @@
-# The Plaguers
+# Sunken Treasure
 [_LDJam 57 - Depths_](https://ldjam.com/events/ludum-dare/57)
 
 This game was written during LDJam 57. In this community driven game competition you can build a game from scratch in 48 hours or compete in a more relaxed manor, which allows teams: The Jam. The competition means you design the concept, program behaviour and mechanics, make art and audio and play test the game in 48 hours. This game was made during the relaxed Jam and included two team members. Beside this, we followed the Competition rules as much as possible. All art, code, audio and design were made from scratch with the exception of the base frameworks for DOM manipulation and the game engine. 
